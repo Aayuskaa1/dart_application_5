@@ -1,4 +1,4 @@
-//Question 8 ()
+//Question8 (String analysis)
 import 'dart:io';
 
 void main() {
@@ -25,8 +25,9 @@ void main() {
       special++;
     }
   }
-  print("Vowels: &vowels");
-  print("Consonants: &consonants");
-  print("Digits: &digits");
-  print("Special Charcaters: &special");
+
+  print("Vowels: $vowels");
+  print("Consonants: $consonants");
+  print("Digits: $digits");
+  print("Special Characters: $special");
 }
